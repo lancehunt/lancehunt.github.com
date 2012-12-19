@@ -1,0 +1,25 @@
+---
+layout: default
+title: Lance Hunt
+---
+
+<div id="home">
+	<h1>Blog Posts</h1>
+	<ul class="posts">
+	{% for post in site.posts %}
+	  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	<div style="display:none">  
+	  <h1>Other Publications, Interviews, Talks, Etc</h1>
+	  <ul class="posts">
+		<li><span>2 Mar 2007</span> &raquo; <a href="//weblogs.asp.net/lhunt/pages/CSharp-Coding-Standards-document.aspx">C# Coding Standards Document</a></li>
+	  </ul>
+	</div>
+
+	  <h1>Open Source Projects</h1>
+	  <ul class="posts">
+		<li><a href="//github.com/lancehunt/psdev/">PSdev:</a> A powershell bundle for developers using git and other tools on Windows</li>
+	  </ul>
+</div>
