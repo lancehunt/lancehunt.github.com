@@ -1,25 +1,52 @@
----
-layout: default
-title: Lance Hunt
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-<div id="home">
-	<h1>Blog Posts</h1>
-	<ul class="posts">
-	{% for post in site.posts %}
-	  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-	</ul>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-	  <h1>Other Publications, Interviews, Talks, Etc</h1>
-	  <ul class="posts">
-		<li><span>2 Mar 2007</span> &raquo; <a href="//weblogs.asp.net/lhunt/pages/CSharp-Coding-Standards-document.aspx">C# Coding Standards Document</a></li>
-	  </ul>
+    <title>Lancehunt.GitHub.com by lancehunt</title>
+  </head>
 
-	  <h1>Open Source Projects</h1>
-	  <ul class="posts">
-		<li><a href="//github.com/lancehunt/psdev/">PSdev:</a> A powershell bundle for developers using git and other tools on Windows</li>
-		<li><a href="//github.com/lancehunt/Dev.Setup/">Dev.Setup:</a> A powershell script to automate dev desktop setup via Chocolatey</li>		
-		<li><a href="//github.com/lancehunt/ps.extensions/">ps.extensions:</a> A powershell extensions and modules library.</li>				
-	  </ul>
-</div>
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Lancehunt.GitHub.com</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/lancehunt" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>h1. This is the data for my blog</p>
+
+<p>It is automatically transformed by "Jekyll":<a href="http://github.com/mojombo/jekyll">http://github.com/mojombo/jekyll</a> into a static site whenever I push this repository to GitHub.</p>
+
+<p>h1. License</p>
+
+<p>The following directories and their contents are Copyright Lance Hunt. You may not reuse anything therein without my permission:</p>
+
+<ul>
+<li>_posts/</li>
+<li>images/</li>
+</ul>
+
+<p>All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to <a href="http://github.com/mojombo/jekyll">http://github.com/mojombo/jekyll</a> would be appreciated, but is not required.</p>
+
+<p>h1. Attribution</p>
+
+<p>This site is my clone of Tom Preson-Warner's github blogging approach from <a href="https://github.com/mojombo/mojombo.github.com">https://github.com/mojombo/mojombo.github.com</a></p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>

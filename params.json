@@ -1,0 +1,6 @@
+{
+  "name": "Lancehunt.GitHub.com",
+  "tagline": "",
+  "body": "h1. This is the data for my blog\r\n\r\nIt is automatically transformed by \"Jekyll\":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.\r\n\r\nh1. License\r\n\r\nThe following directories and their contents are Copyright Lance Hunt. You may not reuse anything therein without my permission:\r\n\r\n* _posts/\r\n* images/\r\n\r\nAll other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/mojombo/jekyll would be appreciated, but is not required.\r\n\r\nh1. Attribution\r\n\r\nThis site is my clone of Tom Preson-Warner's github blogging approach from https://github.com/mojombo/mojombo.github.com\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
